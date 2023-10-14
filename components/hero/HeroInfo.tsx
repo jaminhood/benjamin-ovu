@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const HeroInfo = () => {
  return (
-  <div className="flex justify-center items-center flex-col text-center text-gray-950 dark:text-gray-50 w-full">
+  <div className="flex justify-center items-center flex-col text-center text-gray-50 w-full">
    <div className="flex justify-center items-center flex-col">
     <h1 className="text-6xl md:text-8xl font-bold capitalize">Benjamin Ovu</h1>
     <h6 className="text-lg font-normal capitalize mt-4 border-y-2 border-green-500 inline-block py-2">
