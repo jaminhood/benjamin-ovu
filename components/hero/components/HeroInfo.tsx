@@ -2,11 +2,11 @@ import Link from "next/link"
 
 const HeroInfo = () => {
 	return (
-		<div className="grid grid-cols-2 text-gray-50 w-full">
-			<div className="flex justify-center items-center md:items-start flex-col">
+		<div className="grid grid-cols-1 md:grid-cols-2 text-gray-50 w-full">
+			<div className="flex justify-center items-center text-center md:text-left md:items-start flex-col gap-4">
 				<h6 className="text-lg font-normal capitalize mt-4 border-b-2 border-green-500 inline-block py-2">Hi There, I Am</h6>
-				<h1 className="text-4xl md:text-7xl leading-10 font-bold capitalize">Benjamin Ovu</h1>
-				<h6 className="text-lg font-normal capitalize mt-4 border-l-2 border-green-500 inline-block py-2 px-4">A Software Engineer</h6>
+				<h1 className="text-5xl md:text-7xl leading-10 font-bold capitalize">Benjamin Ovu</h1>
+				<h6 className="text-lg font-normal capitalize mt-4 border-l-2 border-r-2 md:border-r-0 border-green-500 inline-block py-2 px-4">A Software Engineer</h6>
 				<Link
 					href="https://drive.google.com/file/d/1oH6k5VT7yQ1DUQ_s0qCV7Jbw8gfPMQJs/view?usp=drive_link"
 					target="_blank">

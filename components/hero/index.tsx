@@ -7,7 +7,7 @@ const Hero = () => {
 	return (
 		<Section cls="">
 			<HeroBgOverlay />
-			<div className="relative h-[calc(100vh-4rem)] flex justify-center items-center flex-col">
+			<div className="relative h-[50dvh] md:h-[calc(100vh-4rem)] flex justify-center items-center flex-col">
 				<HeroInfo />
 				<HeroAbout />
 			</div>
