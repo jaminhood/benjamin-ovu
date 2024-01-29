@@ -11,6 +11,5 @@ type ProjectDataProp = {
 	client: string
 	timeline: string
 	description: string
-	lessons: string[]
 	tools: string[]
 }
