@@ -4,17 +4,23 @@ import Link from "next/link"
 import { FC } from "react"
 
 const ProjectCard: FC<ProjectProps> = ({ project }) => {
- return (
-  <div className="border-2 border-gray-300">
-   <Image src={project.img} alt="" />
-   <div className="p-4">
-    <Link href={project.path} target="_blank">
-     <h4 className="text-xl font-bold capitalize">{project.title}</h4>
-    </Link>
-    <p className="text-sm font-normal mt-2">{project.role}</p>
-   </div>
-  </div>
- )
+	return (
+		<div className="relative z-0 aspect-video">
+			<div className="bg-gray-300 p-2 aspect-video overflow-hidden rounded">
+				<Image
+					src={project.img}
+					alt=""
+					className="h-full object-cover rounded"
+				/>
+			</div>
+			<div className="p-2 relative z-0 flex flex-col text-center items-center gap-2">
+				<Link href={`/projects/${project.title.toLowerCase().replace(/ /g, "-")}`}>
+					<h4 className="text-xl font-bold capitalize">{project.title}</h4>
+				</Link>
+				<p className="text-sm font-normal text-green-500">{project.role}</p>
+			</div>
+		</div>
+	)
 }
 
 export default ProjectCard
