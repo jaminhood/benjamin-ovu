@@ -6,7 +6,7 @@ import { FC } from "react"
 const ProjectCard: FC<ProjectProps> = ({ project }) => {
 	return (
 		<div className="relative z-0 aspect-video">
-			<div className="bg-gray-300 p-2 aspect-video overflow-hidden rounded">
+			<div className="bg-gray-300 p-2 aspect-video overflow-hidden">
 				<Image
 					src={project.img}
 					alt=""
