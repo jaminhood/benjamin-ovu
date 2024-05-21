@@ -24,7 +24,7 @@ const ContactUs = () => {
 				<div className="grid grid-cols-2 mt-8 gap-4">
 					<div className="col-span-1 flex justify-center items-center flex-col">
 						<Link
-							href="tel:07040354706"
+							href="https://wa.link/sw1jx0"
 							target="_blank">
 							<BsWhatsapp size={ICON_SIZE_MOBILE} />
 						</Link>
@@ -62,7 +62,7 @@ const ContactUs = () => {
 			<div className="grid grid-cols-3 mt-8">
 				<div className="col-span-1 flex justify-center items-center flex-col">
 					<Link
-						href="tel:07040354706"
+						href="https://wa.link/sw1jx0"
 						target="_blank">
 						<BsWhatsapp size={ICON_SIZE_DESKTOP} />
 					</Link>
